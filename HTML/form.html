@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>Regsiteration Form</h1>
+    <form   action="index.html"  method="get">
+     <label for="User Name">User Name</label> <br/>
+      <input type="text" placeholder="Enter your Name"><br/>
+      <!--label for="password">password</label--> 
+      <input type="password" placeholder="Enter your password"><br/>
+      <label for="Male"><input type="radio" value="Male" name="gender" id="Male">Male</label>
+      <label for="Female"><input type="radio" value="Female" name="gender" id="Female">Female</label><br/>
+      <h2>hobbies</h2>
+      <label for="Reading"><input type="checkbox" value="Reading" name="hobbies">Reading</label><br/>
+      
+      <label for="Writing"><input type="checkbox" value="Writing" name="bye" >Writing</label><br/>    <!--name values can be changed no need for the same name-->
+      <label for="Speaking"><input type="checkbox" value="speaking" name="hobbies" >Speaking</label><br/>
+      <label for="Listening"><input type="checkbox" value="Listening" name="hobbies" >Listening</label><br/>
+      <!--textarea field for entering such as address large area to entre the data is provided-->
+      <textarea name="post" placeholder="place your ideas" cols="15" rows="10"></textarea><br/>
+      <select name="city">           <!--For DropDown List Purpose-->
+          <option value="no city">Select Your City</option>  <!--For entering the data inside the DropDown list-->
+          <option value="Mumbai">MUmbai</option>
+          <option value="Delhi">Delhi</option>
+      </select>
+      <input type="submit"  value="submit"><br/>
+      <input type="reset"   value="reset"><br/>
+    </form>
+    
+</body>
+</html>

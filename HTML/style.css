@@ -1,0 +1,40 @@
+
+
+
+
+*{
+    padding:10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+body{
+    background-image: url("image\ folder/sabudana.jpg");
+    background-repeat: no-repeat;
+    
+    text-decoration-line: underline;
+    color: chartreuse;
+    word-spacing: 30px;
+    
+}
+
+h2{
+    border-style: dotted;
+    border-width: 3px,3px,3px,3px;
+    border-color: black;
+    border-top-style: solid;
+    text-decoration-line: overline;
+}
+h3{
+        border-style: outset;
+        border-color: coral;
+        border:dotted 6px brown;
+        text-decoration-line: line-through;
+        text-indent: 15px;
+}
+h4{
+   border-style: solid;
+   border-color: chartreuse blue red black;
+   border-radius: 30px;
+  
+}
