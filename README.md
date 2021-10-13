@@ -1,2 +1,0 @@
-# FoodSystem
-Front End Code
